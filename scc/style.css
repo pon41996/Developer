@@ -144,7 +144,7 @@ body {
   background-color: orange;
 }
 .wrapper header #menu {
-  min-height: 50px;
+  height: 50px;
   align-items: center;
   display: flex;
 }
@@ -155,8 +155,72 @@ body {
   text-decoration: underline;
 }
 .wrapper header #menu a {
-  color: white;
+  color: #fff;
   text-decoration: none;
   margin-left: 20px;
   font-size: 20px;
+}
+.wrapper .container {
+  background-color: #ffffff;
+  display: flex;
+  padding: 20px;
+}
+.wrapper .container main {
+  text-align: justify;
+  width: 550px;
+  margin-right: 20px;
+}
+.wrapper .container main h1 {
+  font-size: 25px;
+}
+.wrapper .container main h2 {
+  font-size: 25px;
+  margin-top: 10px;
+}
+.wrapper .container main p {
+  margin-top: 10px;
+  font-size: 15px;
+}
+.wrapper .container main img {
+  margin-top: 10px;
+  width: 550px;
+}
+.wrapper .container main table {
+  margin-top: 10px;
+  border-collapse: separate;
+  width: 550px;
+  border-spacing: 2px;
+}
+.wrapper .container main table th {
+  font-size: 18px;
+  background-color: rgb(213, 213, 213);
+  border: 1px solid black;
+}
+.wrapper .container main table td {
+  border: 1px solid black;
+  text-align: center;
+}
+.wrapper .container aside {
+  text-align: justify;
+}
+.wrapper .container aside h2 {
+  font-size: 23px;
+  margin-top: 10px;
+}
+.wrapper .container aside ul li {
+  margin-top: 10px;
+  font-size: 15px;
+}
+.wrapper .container aside p {
+  margin-top: 10px;
+  font-size: 15px;
+}
+.wrapper footer {
+  background-color: orange;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 15px;
+  color: #fff;
 }/*# sourceMappingURL=style.css.map */
