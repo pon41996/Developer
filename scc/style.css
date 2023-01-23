@@ -129,12 +129,34 @@ table {
   border-spacing: 0;
 }
 
-.test {
-  background-color: black;
+body {
+  background-color: #EBEBEB;
+  font-family: sans-serif;
 }
-.test h1 {
-  color: #fff;
+
+.wrapper {
+  width: 890px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
 }
-.test p {
-  color: #fff;
+.wrapper header {
+  background-color: orange;
+}
+.wrapper header #menu {
+  min-height: 50px;
+  align-items: center;
+  display: flex;
+}
+.wrapper header #menu .active {
+  text-decoration: underline;
+}
+.wrapper header #menu :hover {
+  text-decoration: underline;
+}
+.wrapper header #menu a {
+  color: white;
+  text-decoration: none;
+  margin-left: 20px;
+  font-size: 20px;
 }/*# sourceMappingURL=style.css.map */
